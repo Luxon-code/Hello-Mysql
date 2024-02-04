@@ -1,0 +1,1 @@
+SELECT CONCAT(name,' ',last_name) AS 'Nombre Completo' FROM users WHERE last_name IS NOT NULL;

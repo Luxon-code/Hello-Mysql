@@ -1,0 +1,1 @@
+SELECT name AS 'Nombre' FROM users WHERE age BETWEEN 15 AND 22;
