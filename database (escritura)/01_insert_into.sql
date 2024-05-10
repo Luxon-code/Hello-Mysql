@@ -1,0 +1,1 @@
+insert into users (name,last_name,age) values ("Jose","Bermeo",15);
