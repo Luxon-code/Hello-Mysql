@@ -9,3 +9,6 @@ modify column description varchar(250);
 
 alter table persons7
 drop column description;
+
+alter table users add constraint fk_companies
+foreign key(company_id) references companies(company_id);
